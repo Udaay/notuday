@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    formats: ["image/webp"],
+  },
+  compiler: {
+    styledComponents: true,
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
